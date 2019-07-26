@@ -1,0 +1,92 @@
+
+
+/**************************TAG SELECTORS*********************************/
+body {
+  background-color: #c8dad3;
+  margin: 0px;
+
+}
+
+hr {
+  border-top-style: dotted;
+  border-top-width: 7px;
+  height: 0px;
+  width: 10%;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+}
+
+h1 {
+  margin: 0 auto;
+
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div {
+
+}
+
+/**************************CLASS SELECTORS*********************************/
+.heading {
+  background-color: #63707E;
+}
+.top-container{
+background-color: #f2f6f5;
+text-align: center;
+/*added of angela */
+position: relative;
+padding-top: 100px;
+}
+.middle-container{
+  background-color: #f4f6f6;
+  width: 200px;
+  height: 200px;
+}
+.bottom-container{
+  background-color: #cd3f3e;
+  width: 200px;
+  height: 200px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.link:hover {
+  color: hotpink;
+}
+
+.link:active {
+  color: blue,
+}
+
+.link:visited {
+  color: green;
+}
+
+.top-cloud{
+  right: 100px;
+  position: absolute;
+  top: 50px;
+}
+.bottom-cloud{
+position: absolute;
+left: 150px;
+    top: 200px;
+
+}
+.mountain{
+
+}
+/**************************ID SELECTORS only in some cases*********************************/

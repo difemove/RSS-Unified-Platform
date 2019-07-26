@@ -1,0 +1,28 @@
+.red{
+height:100px;
+width: 100px;
+background-color: red;
+position:absolute;
+/*Added part to achieve excercise*/
+/*200px + 8px body margin*/
+top: 208px;
+Left: 208px;
+}
+.blue{
+height:100px;
+width: 100px;
+background-color: blue;
+position:absolute;
+/*Added part to achieve excercise*/
+/*100px + 8px body margin*/
+left: 108px;
+top: 108px;
+}
+.yellow{
+height:100px;
+width: 100px;
+background-color: yellow;
+position:absolute;
+/*Added part to achieve excercise*/
+/*it is not necesary to add anything*/
+}
