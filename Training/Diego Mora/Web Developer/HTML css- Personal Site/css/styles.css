@@ -2,13 +2,13 @@
 
 /**************************TAG SELECTORS*********************************/
 body {
-  background-color: #c8dad3;
   margin: 0px;
-
+font-family: 'Montserrat', sans-serif;
+background-color: #D7E4FC;
 }
 
 hr {
-  border-top-style: dotted;
+  border-top-style: inset;
   border-top-width: 7px;
   height: 0px;
   width: 10%;
@@ -18,17 +18,43 @@ hr {
 }
 
 h1 {
-  margin: 0 auto;
+  margin: 50px auto 0px;
+
+/*font-family: 'Itim', cursive;*/
+
+font-family: 'Comfortaa', cursive;
+/*HIGHLY RECOMMENDED TO USE FONT'SIZE AS REM 1 REM+*/
+z-index:999;
+font-size: 4rem;
+height: 100%;
 
 }
+h2{
+z-index:999;
+  font-family: 'Raleway', cursive;
+font-size: 1.5rem;
+color:#845EC2;
+line-height: 2;
+}
+h3{
 
+  font-family: 'Raleway', cursive;
+color:#FF6F91;
+}
 p {
   margin-top: 0px;
   margin-bottom: 0px;
+  color:#2f2e41;
+  line-height: 2;
 }
+
 
 div {
 
+}
+a:link
+{
+  color: #D65DB1;
 }
 
 /**************************CLASS SELECTORS*********************************/
@@ -36,22 +62,42 @@ div {
   background-color: #63707E;
 }
 .top-container{
-background-color: #f2f6f5;
+background-color:#4990e3;
+background-image: linear-gradient(to right bottom, #845ec2, #a55dbd, #c15db5, #d95fab, #ec64a0, #f76e91, #fd7b84, #ff8a7a, #ffa26e, #ffbd66, #ffda65, #f9f871);
 text-align: center;
 /*added of angela */
 position: relative;
-padding-top: 100px;
+padding-top: 50px;
+color:snow;
+padding-bottom: 50px;
+
 }
+
+.header-img{
+
+Position:relative;
+
+bottom:50px;
+right: auto;
+left:auto;
+width: 70%;
+text-indent: -9999px;
+}
+
+
+
 .middle-container{
-  background-color: #f4f6f6;
-  width: 200px;
-  height: 200px;
+  background-color: snow;
+  overflow: auto;
+  position: relative;
+
 }
 .bottom-container{
-  background-color: #cd3f3e;
-  width: 200px;
-  height: 200px;
+  background-color: #845ec2;
+;
+
 }
+
 
 .centered {
   display: block;
@@ -59,34 +105,100 @@ padding-top: 100px;
   margin-right: auto;
 }
 
+
+.img-hello{
+  display: block;
+  right: auto;
+  left: auto;
+}
 .circular {
   border-radius: 100%;
 }
 
-.link:hover {
-  color: hotpink;
+.image-cropper{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius:50%;
+
 }
 
-.link:active {
-  color: blue,
+.cropper{
+  width: 367px;
+  height: 332px;
+}
+.profile-pic {
+  display: block;
+margin: 0 auto;
+margin-left: 5%;
+width: auto;
+height: 130%
+
+}
+.profile{
+  margin-top:14px;
+}
+.grid-container{
+  margin: 2% 4%;
+  display: grid;
+  grid-column-gap:15px;
+
+  grid-template-columns: repeat(3,1fr);
+grid-row-gap: 30px;
 }
 
-.link:visited {
-  color: green;
+
+.skill-column-1{
+  display: block;
+
+grid-column-start: 1;
+grid-column-end: 1;
+}
+.skill-column-2{
+  display: block;
+
+grid-column-start: 2;
+grid-column-end: 4;
+}
+.skill-column-3{
+  display: block;
+
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.skill-column-4{
+  display: block;
+
+grid-column-start: 3;
+grid-column-end:3;
+}
+.contact-me{
+  background-color: #F9F871;
+    padding-bottom: 28px;
 }
 
-.top-cloud{
-  right: 100px;
+.footer-link:hover {
+  color: #F9F871;
+}
+
+.footer-link:active {
+  color: #F9F871,
+}
+
+.footer-link:visited {
+  color: #FF9671;
+}
+
+.svg-img-container{
   position: absolute;
-  top: 50px;
 }
-.bottom-cloud{
-position: absolute;
-left: 150px;
-    top: 200px;
 
-}
-.mountain{
+.one-edge-bottom-shadow {
 
+	        box-shadow: 0 5px 6px -6px black;
 }
 /**************************ID SELECTORS only in some cases*********************************/
+#h2-header{
+  color:snow;
+}
