@@ -5,7 +5,7 @@
 
     <mat-label>Customer Type</mat-label>
 <!-- You take a selected value from model-->
-<mat-select [(ngModel)]="selectedValue" name="customerType"  >
+<mat-select [(ngModel)]="selectedValue" name="customerType" (ngModelChange)="emitCustomerCode($event)" >
     <!-- According to customer types loaded the selector showa the description and 
     when you select the selected value is the code-->
     <mat-option *ngFor="let customerType of customerTypes" [value]="customerType.code">
@@ -14,5 +14,6 @@
     </mat-select>
 
 </mat-form-field>
+
 
 

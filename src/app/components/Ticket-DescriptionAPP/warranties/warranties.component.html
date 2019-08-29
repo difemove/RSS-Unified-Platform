@@ -20,18 +20,18 @@
     <mat-card-content>
         <h2 >Result</h2>
         <section>
-            <mat-slide-toggle [color]="red" [checked]="webex" (change)="webex=!webex">
+            <mat-slide-toggle [color]="red" [checked]="webex" (change)="emitSelection('webex')" >
                 webex
             </mat-slide-toggle>
         </section>
         <section>
-            <mat-slide-toggle [color]="red" [checked]="specialist" (change)="specialist=!specialist">
+            <mat-slide-toggle [color]="red" [checked]="specialist" (change)="emitSelection('specialist')" >
                 specialist
             </mat-slide-toggle>
         </section>
        
         <section >
-            <mat-slide-toggle  [color]="red" [checked]="npsr" (change)="npsr=!npsr" >
+            <mat-slide-toggle  [color]="red" [checked]="npsr" (change)="emitSelection('npsr')" >
               NPSR
             </mat-slide-toggle>
         </section>

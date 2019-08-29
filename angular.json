@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "TicketTemplate": {
+    "Angular-Template": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/TicketTemplate",
+            "outputPath": "dist/Angular-Template",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "TicketTemplate:build"
+            "browserTarget": "Angular-Template:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "TicketTemplate:build:production"
+              "browserTarget": "Angular-Template:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "TicketTemplate:build"
+            "browserTarget": "Angular-Template:build"
           }
         },
         "test": {
@@ -111,15 +111,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "TicketTemplate:serve"
+            "devServerTarget": "Angular-Template:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "TicketTemplate:serve:production"
+              "devServerTarget": "Angular-Template:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "TicketTemplate"
+  "defaultProject": "Angular-Template"
 }
