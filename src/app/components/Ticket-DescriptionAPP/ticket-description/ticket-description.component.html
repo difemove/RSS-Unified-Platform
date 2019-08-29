@@ -1,9 +1,16 @@
 <p >{{customerCode}}-{{contractCode}}-{{NPSRCode}}-{{productCode}}-{{information}} </p>
+<mat-card>
+    <mat-card-content>
+        <Section>
+        <app-aditional-information ></app-aditional-information>
+        </Section>
+        <Section>
+        <app-customer-types></app-customer-types>
+        <app-contract-types (ngModelChange)="printscreen()"></app-contract-types>
+        <app-products></app-products>
+        </Section>
+        <app-warranties></app-warranties>
+    </mat-card-content>
 
-<app-aditional-information ></app-aditional-information>
-<app-customer-types></app-customer-types>
-<app-contract-types (ngModelChange)="printscreen()"></app-contract-types>
-<app-products></app-products>
-<app-warranties>
 
-</app-warranties>
+</mat-card>

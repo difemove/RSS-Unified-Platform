@@ -1,5 +1,5 @@
-<mat-form-field >
-    <input matInput type="text" [attr.disabled]="isNPSR" (clic)="checkNPSR()" placeholder="Additional Information" [ngModel]="information" (ngModelChange)="emitInformation($event)">
+<mat-form-field *ngIf="!isNPSR">
+    <input matInput type="text" placeholder="Additional Information" [ngModel]="information" (ngModelChange)="emitInformation($event)">
     <button mat-button *ngIf="information" matSuffix mat-icon-button aria-label="Clear" (click)="emitInformation('')">
         <mat-icon>close</mat-icon>
     </button>

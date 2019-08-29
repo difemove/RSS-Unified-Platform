@@ -28,11 +28,9 @@ export class WarrantiesComponent implements OnInit {
     this.npsrTypes=["NPSR Pre-Authorized","NPSR In Review",
     "NPSR Rejected","Warranty","Warranty Repair", "Warranty Save"
   ];
-  
- 
-   
-
   }
+
+
   public emitSelection(s: string) {
     switch(s){
      case 'webex':{
@@ -51,13 +49,19 @@ export class WarrantiesComponent implements OnInit {
     
     }
     this.dcs.loadNPSRCode(this.webex,this.specialist,this.npsr);
-
   }
+
   emitInformation(i: string) {
     this.dcs.loadInformation(i);
   }
   public emitSelectionsBoolean(){
     this.dcs.loadNPSRCode(this.webex,this.specialist,this.npsr);
   }
-
+ public isNPSR():boolean{
+  if (!this.npsr){
+    this.npsrSelected='';
+  }
+  
+  return this.npsr;
+ }
 }

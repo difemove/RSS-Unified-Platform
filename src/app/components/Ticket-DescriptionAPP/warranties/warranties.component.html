@@ -1,21 +1,4 @@
-<!--
-<mat-card>
-    <mat-card-content>
-        <h2 >Slider configuration</h2>
 
-        <!--
-
-        <section >
-            <mat-checkbox  [(ngModel)]="checked">Checked</mat-checkbox>
-        </section>
-
-        <section >
-            <mat-checkbox  [(ngModel)]="disabled">Disabled</mat-checkbox>
-        </section>
-       
-    </mat-card-content>
-</mat-card>
--->
 <mat-card >
     <mat-card-content>
         <h2 >Result</h2>
@@ -36,14 +19,14 @@
             </mat-slide-toggle>
         </section>
 
-        <section *ngIf="npsr">
+        <section *ngIf="isNPSR()">
         <label>Color:</label>
-        <mat-radio-group [(ngModel)]="npsrSelected">
+        <mat-radio-group [(ngModel)]="npsrSelected" (ngModelChange)="emitInformation($event)">
         <mat-radio-button *ngFor="let npsrType of npsrTypes" [value]="npsrType">
             {{npsrType}}
          </mat-radio-button>
          </mat-radio-group>
-</section>
+        </section>
 
     </mat-card-content>
     
