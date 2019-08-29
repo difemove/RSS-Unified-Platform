@@ -1,0 +1,15 @@
+<mat-form-field>
+
+    <mat-label>Contract Type</mat-label>
+    <!-- You take a selected value from model-->
+    <mat-select [(ngModel)]="selectedValue" name="product">
+        <!-- According to customer types loaded the selector showa the description and 
+    when you select the selected value is the code-->
+        <mat-option *ngFor="let product of products" [value]="product.code">
+            {{product.productDescription}}
+        </mat-option>
+    </mat-select>
+
+</mat-form-field>
+<p> {{selectedValue}}</p>
+

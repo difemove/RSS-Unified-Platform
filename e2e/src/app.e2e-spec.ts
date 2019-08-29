@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< Updated upstream
     expect(page.getTitleText()).toEqual('Welcome to TicketTemplate!');
+=======
+    expect(page.getTitleText()).toEqual('Welcome to Angular-Template!');
+>>>>>>> Stashed changes
   });
 
   afterEach(async () => {

@@ -1,0 +1,86 @@
+[
+ {
+   "customerDescription": "End User - 8to5 (Business Day)",
+   "code": "UBD"
+ },
+ {
+   "customerDescription": "End User - 24x7 (After Hours)",
+   "code": "UAH"
+ },
+ {
+   "customerDescription": "Toolkit - 8to5 (Business Day)",
+   "code": "TBD"
+ },
+ {
+   "customerDescription": "Toolkit - 24x7 (After Hours)",
+   "code": "TAH"
+ },
+ {
+   "customerDescription": "Conference DI and End User NO CONTRACT",
+   "code": "DIC"
+ },
+ {
+   "customerDescription": "Conference DI and End User WITH CONTRACT",
+   "code": "DIU"
+ },
+ {
+   "customerDescription": "Distributor question",
+   "code": "DIQ"
+ },
+ {
+   "customerDescription": "Conference RA and End User",
+   "code": "RAC"
+ },
+ {
+   "customerDescription": "RA Employee question",
+   "code": "RAQ"
+ },
+ {
+   "customerDescription": "Denied Support",
+   "code": "DND"
+ },
+ {
+   "customerDescription": "Grace Period Contract",
+   "code": "GPC"
+ },
+ {
+   "customerDescription": "Exception",
+   "code": "EXC"
+ },
+ {
+   "customerDescription": "End User - No Contract",
+   "code": "ENC"
+ },
+ {
+   "customerDescription": "Self-Assist Contract",
+   "code": "SAC"
+ },
+ {
+   "customerDescription": "SAQ",
+   "code": "SAQ"
+ },
+ {
+   "customerDescription": "Chat Session",
+   "code": "CHT"
+ },
+ {
+   "customerDescription": "Warranty End User NO CONTRACT",
+   "code": "WEC"
+ },
+ {
+   "customerDescription": "Warranty End User WITH CONTRACT",
+   "code": "WEU"
+ },
+ {
+   "customerDescription": "Warranty Distributor",
+   "code": "WDI"
+ },
+ {
+   "customerDescription": "Warranty RA Employee",
+   "code": "WRA"
+ },
+ {
+   "customerDescription": "SSB",
+   "code": "SSB"
+ }
+]

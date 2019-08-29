@@ -1,0 +1,18 @@
+<!-- This is the html element for selector of Customer-Type By Diego Mora-->
+<h4>Customer-type selector</h4>
+
+<mat-form-field>
+
+    <mat-label>Customer Type</mat-label>
+<!-- You take a selected value from model-->
+<mat-select [(ngModel)]="selectedValue" name="customerType"  >
+    <!-- According to customer types loaded the selector showa the description and 
+    when you select the selected value is the code-->
+    <mat-option *ngFor="let customerType of customerTypes" [value]="customerType.code">
+        {{customerType.customerDescription}}
+    </mat-option>
+    </mat-select>
+
+</mat-form-field>
+
+

@@ -1,0 +1,57 @@
+[
+    {
+        "contractDescription": "test",
+        "code": "tst",
+        "categories": [
+            {
+          "categoryDescription": "category1",
+          "products": [
+                    {
+              "productDescription": "ptest1",
+              "code": "A00"
+                    },
+                    {
+              "productDescription": "ptest2",
+              "code": "A02"
+                    }
+                ]
+            },
+            {
+            "categoryDescription": "category2",
+            "products": [
+                    {
+                "productDescription": "ptest4",
+                "code": "B01"
+                    },
+                    {
+                "productDescription": "ptest5",
+                "code": "B02"
+                    },
+                    {
+                "productDescription": "ptest6",
+                "code": "B03"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "test2",
+        "code": "tsr",
+        "categories": [
+            {
+          "categoryDescription": "category3",
+          "products": [
+                    {
+              "productDescription": "ptest7",
+              "code": "A01"
+                    },
+                    {
+              "productDescription": "ptest8",
+              "code": "A02"
+                    }
+                ]
+            }
+        ]
+    }
+]
