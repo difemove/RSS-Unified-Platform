@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
 import { DataChangeService } from 'src/app/Services/data-change.service';
+import { CopyService } from 'src/app/services/copyService';
 
 @Component({
   selector: 'app-ticket-description',
@@ -16,7 +17,7 @@ export class TicketDescriptionComponent implements OnInit {
  information:string;
 @Output() descriptionEmitter: EventEmitter<String>= new EventEmitter;
 
-  constructor(private dcs:DataChangeService) { }
+  constructor(private dcs:DataChangeService, private copy:CopyService) { }
 
   ngOnInit() {
     this.getCodes();
@@ -29,7 +30,10 @@ export class TicketDescriptionComponent implements OnInit {
     this.dcs.emitterNPSRCode.subscribe((NPSRCode: string) => this.NPSRCode = NPSRCode);
     this.dcs.emitterInformation.subscribe((information: string)=>this.information=information);
   }
-  
+  public onclick():void{
+  let   description:string=this.customerCode + "-" + this.contractCode + "-"+ this.NPSRCode+"-"+this.productCode+" ";
+    this.copy.copyTextToClipboard(description);
+  }
 
 
 

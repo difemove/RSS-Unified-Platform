@@ -1,4 +1,4 @@
-<mat-form-field *ngIf="!isNPSR">
+<mat-form-field class="container" *ngIf="!isNPSR" >
     <input matInput type="text" placeholder="Additional Information" [ngModel]="information" (ngModelChange)="emitInformation($event)">
     <button mat-button *ngIf="information" matSuffix mat-icon-button aria-label="Clear" (click)="emitInformation('')">
         <mat-icon>close</mat-icon>

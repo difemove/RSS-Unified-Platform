@@ -1,15 +1,26 @@
-<p >{{customerCode}}-{{contractCode}}-{{NPSRCode}}-{{productCode}}-{{information}} </p>
-<mat-card>
+<app-header> </app-header>
+<mat-card class="title">
+<h1 >Ticket Desctiption</h1>
+</mat-card>
+
+<mat-card class="background-card">
     <mat-card-content>
+        <mat-card class="card-description">
+        <mat-card-content>
         <Section>
-        <app-aditional-information ></app-aditional-information>
+            <h2 id="header-description">{{customerCode}}-{{contractCode}}-{{NPSRCode}}-{{productCode}}-{{information}} </h2>
+        
         </Section>
+        </mat-card-content>
+        </mat-card>
         <Section>
+        <app-aditional-information></app-aditional-information>
         <app-customer-types></app-customer-types>
         <app-contract-types (ngModelChange)="printscreen()"></app-contract-types>
         <app-products></app-products>
-        </Section>
         <app-warranties></app-warranties>
+        </Section>
+        
     </mat-card-content>
 
 

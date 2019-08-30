@@ -25,6 +25,9 @@ import { AditionalInformationComponent } from './components/Ticket-DescriptionAP
 import { MatIconModule } from '@angular/material/icon';
 import { TicketDescriptionComponent } from './components/Ticket-DescriptionAPP/ticket-description/ticket-description.component';
 import 'hammerjs';
+import { HeaderComponent } from './components/header/header.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { CopyService } from './services/copyService';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +36,8 @@ import 'hammerjs';
     ProductsComponent,
     WarrantiesComponent,
     AditionalInformationComponent,
-    TicketDescriptionComponent
+    TicketDescriptionComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -43,10 +47,11 @@ import 'hammerjs';
     MatInputModule, BrowserAnimationsModule, FormsModule,
     MatSlideToggleModule, MatRadioModule, MatCardModule,
   MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule
     
   ],
-  providers: [],
+  providers: [CopyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

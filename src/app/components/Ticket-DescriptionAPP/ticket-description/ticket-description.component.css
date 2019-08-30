@@ -1,0 +1,44 @@
+
+.card-description{
+        text-align: center;
+        transition: 0ms;
+        font-family:'Barlow', Arial;
+        font-weight: normal; 
+        background: #F9B822;
+        color:white;
+        transition: background 2s;
+        transition-timing-function: ease;
+
+}
+.card-description:hover{
+        text-align: center;
+        transition: 0ms;
+        font-family:'Barlow', Arial;
+        font-weight: normal; 
+        background:  #F68A33;
+        color:white;
+        transition: background 1s;
+        transition-timing-function: ease;
+
+}
+.title{
+        text-align: center;
+    font-family: 'Barlow',Arial;
+    font-weight: Bold;
+    font-size: 1.5em;
+    background-color: #BB2332;
+    /* background-image: linear-gradient(to right, #f68a33, #ed7832, #e36532, #d85332, #cc4032, #c52e40, #ba1e4d, #ab1358, #92216e, #71307d, #473a83, #003e7e); */
+    margin: 0px;
+    /* background-image: linear-gradient(to right bottom, #f9b822, #ec971d, #db781e, #c65a1f, #af3c20, #ad3921, #ab3523, #a93224, #be4828, #d15d2c, #e4732f, #f68a33); */
+    padding: 7%;
+    background-image: linear-gradient(to right bottom, #8c111e, #951522, #9d1825, #a61c29, #af1f2d, #b92b2f, #c23630, #cc4032, #d85332, #e36532, #ed7832, #f68a33);
+    color: #E6E7E8;
+}
+#header-description{
+    font-size:2em;
+    transition: font-size 2s;
+        transition-timing-function: ease;
+}
+#header-description:hover{
+    font-size:2em;
+}
