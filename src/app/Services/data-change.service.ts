@@ -18,7 +18,7 @@ export class DataChangeService {
   @Output() emitterCustomerCode: EventEmitter<String>= new EventEmitter();
   @Output() emitterNPSRCode: EventEmitter<String>= new EventEmitter();
  @Output() emitterIfNPSR: EventEmitter<boolean>= new EventEmitter();
-
+@Output() emitterTabIndex: EventEmitter<number>= new EventEmitter();
  
 
   constructor() {
@@ -94,6 +94,10 @@ export class DataChangeService {
 
     this.emitterNPSRCode.emit(result);
     this.emitterIfNPSR.emit(n);
+  }
+
+  loadTabSelected(n:number):void{
+    this.emitterTabIndex.emit(n);
   }
 
 }
