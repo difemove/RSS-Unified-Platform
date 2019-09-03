@@ -1,8 +1,8 @@
 .hero {
 	height: 50vh;
 	background: linear-gradient(45deg,#003E7E,#074255,
-	 #8C111E,#BB2332,#F68A33) 0 0 / 1000% no-repeat, 
-	 url("../../../assets/RA-Logo-Web/2019_RA_Logo_Bug-LeftText_white.png") 0 0 / 
+	 #8C111E,#BB2332,#F68A33) 0 0 / 1000% no-repeat, url("../../../assets/RA-Logo-Web/2019_RA_Logo_Bug-LeftText_white.png") 
+	 0 0 / 
 	 cover no-repeat;
 	-webkit-animation: gradientAnimation 20s ease infinite;
 	animation: gradientAnimation 20s ease infinite;
