@@ -1,0 +1,25 @@
+    <div class="CardInputs">
+    <mat-card class="CardInputs">       
+        <form class="TemplateForm">
+        <mat-form-field class="Question">
+            <input matInput placeholder="Question" ngModel name="quest" (ngModelChange)="emitQuestion($event)">
+        </mat-form-field>
+      
+        <mat-form-field class="Environment">
+            <input matInput placeholder="Environment" ngModel name="env" (ngModelChange)="emitEnvironment($event)" >
+        </mat-form-field>
+
+        <mat-form-field class="Answer">
+            <textarea matInput placeholder="Answer" rows="5" ngModel name="ans" (ngModelChange)="emitAnswer($event)"></textarea>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select [(ngModel)]="selectedValue" name="ns" (ngModelChange)="emitNextSteps($event)">
+                        
+                        <mat-option *ngFor="let nextStep of nextSteps" [value]="nextStep">
+                            {{nextStep.nextSteps}}
+                        </mat-option>
+            </mat-select>
+        </mat-form-field>
+        </form>
+    </mat-card>
+
