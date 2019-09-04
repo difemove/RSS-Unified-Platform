@@ -3,8 +3,8 @@ import { NgModule} from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AutoTemplateComponent } from './components/TempletateAPP/auto-template/auto-template.component';
-import { TemplateComponent } from './components/TempletateAPP/template/template.component';
+import { AutoTemplateComponent } from './components/TemplateAPP/autoTemplate/auto-template.component';
+import { TemplateComponent } from './components/TemplateAPP/template/template.component';
 import { CustomerTypesComponent } from './components/Ticket-DescriptionAPP/customer-types/customer-types.component';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
