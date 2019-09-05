@@ -11,7 +11,7 @@ import 'hammerjs';
 
 //Services
 import { CopyService } from './services/copyService';
-
+import { DataChangeService } from './Services/data-change.service';
 //Angular Material Components
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
@@ -49,8 +49,8 @@ import { MatDialog } from '@angular/material';
 import { HeaderComponent } from './components/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AutoTemplateComponent } from './components/TempletateAPP/auto-template/auto-template.component';
-import { TemplateComponent } from './components/TempletateAPP/template/template.component';
+import { AutoTemplateComponent } from './components/TemplateAPP/autoTemplate/auto-template.component';
+import { TemplateComponent } from './components/TemplateAPP/template/template.component';
 import { CustomerTypesComponent } from './components/Ticket-DescriptionAPP/customer-types/customer-types.component';
 import { TitlePageComponent } from './components/title-page/title-page.component';
 import { TabSelectorComponent } from './components/tab-selector/tab-selector.component';
@@ -61,6 +61,7 @@ import { ContractTypesComponent } from './components/Ticket-DescriptionAPP/contr
 import { ProductsComponent } from './components/Ticket-DescriptionAPP/products/products.component';
 import { WarrantiesComponent } from './components/Ticket-DescriptionAPP/warranties/warranties.component';
 import { ReturnTypesDialogComponent } from './components/Ticket-DescriptionAPP/return-types-dialog/return-types-dialog.component';
+
 
 
 
@@ -127,10 +128,10 @@ import { ReturnTypesDialogComponent } from './components/Ticket-DescriptionAPP/r
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
-    MatDialog
+    
     
   ],
-  providers: [CopyService],
+  providers: [CopyService,DataChangeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

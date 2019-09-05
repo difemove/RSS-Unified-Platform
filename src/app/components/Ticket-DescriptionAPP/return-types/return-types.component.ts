@@ -16,15 +16,15 @@ export class ReturnTypesComponent implements OnInit {
   ngOnInit() {
   }
 
-  openDialog() {
+  /*openDialog() {
     this.dialog.open(ReturnTypesDialogComponent, {
       data: {
-        /*returnTypes=this.returnTypes;*/
+        /*returnTypes=this.returnTypes;
       }
-    });
+    });*/
 
 
-  }
+  
   
 
 }
