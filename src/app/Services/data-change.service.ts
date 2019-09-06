@@ -17,13 +17,31 @@ export class DataChangeService {
   @Output() emitterInformation: EventEmitter<String>= new EventEmitter();
   @Output() emitterCustomerCode: EventEmitter<String>= new EventEmitter();
   @Output() emitterNPSRCode: EventEmitter<String>= new EventEmitter();
- @Output() emitterIfNPSR: EventEmitter<boolean>= new EventEmitter();
-@Output() emitterTabIndex: EventEmitter<number>= new EventEmitter();
+  @Output() emitterIfNPSR: EventEmitter<boolean>= new EventEmitter();
+  @Output() emitterTabIndex: EventEmitter<number>= new EventEmitter();
+  @Output() emitterQuestion: EventEmitter<string>= new EventEmitter();
+  @Output() emitterEnvironment: EventEmitter<string>= new EventEmitter();
+  @Output() emitterAnswer: EventEmitter<string>= new EventEmitter();
+  @Output() emitterNextSteps: EventEmitter<string>= new EventEmitter();
+ 
  
 
   constructor() {
 
    }
+
+   getQuestion(question:string) :void {
+    this.emitterQuestion.emit(question);
+  }
+     getEnvironment(environment:string) :void {
+    this.emitterEnvironment.emit(environment);
+  }
+     getAnswer(answer:string) :void {
+    this.emitterAnswer.emit(answer);
+  }
+  getNextSteps(nextSteps:string) :void {
+    this.emitterNextSteps.emit(nextSteps);
+  }
 
    getProducts(c:ContractType):Observable<Product[]>{
     let products:Product[]=[];

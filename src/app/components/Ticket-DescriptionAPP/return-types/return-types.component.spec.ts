@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AutoTemplateComponent } from './auto-template.component';
+import { ReturnTypesComponent } from './return-types.component';
 
-describe('AutoTemplateComponent', () => {
-  let component: AutoTemplateComponent;
-  let fixture: ComponentFixture<AutoTemplateComponent>;
+describe('ReturnTypesComponent', () => {
+  let component: ReturnTypesComponent;
+  let fixture: ComponentFixture<ReturnTypesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AutoTemplateComponent ]
+      declarations: [ ReturnTypesComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AutoTemplateComponent);
+    fixture = TestBed.createComponent(ReturnTypesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

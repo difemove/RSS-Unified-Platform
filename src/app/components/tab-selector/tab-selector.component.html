@@ -1,15 +1,9 @@
 <mat-tab-group [selectedIndex]="selectedIndex"
                (selectedIndexChange)="changeSelection($event)">
    <mat-tab label="Ticket Template">
-      <mat-grid-list cols="2" rowHeight="1:1">
-        <mat-grid-tile>
-          <app-template></app-template>
-        </mat-grid-tile>
-        <mat-divider [vertical]="true"></mat-divider>
-        <mat-grid-tile>
-          <app-auto-template></app-auto-template>
-        </mat-grid-tile>
-      </mat-grid-list>
+           <div class="DotsBackground">
+             <app-template></app-template>
+           </div>
     </mat-tab>
   <mat-tab label="Ticket Description"> <app-ticket-description></app-ticket-description> </mat-tab>
   <mat-tab label="Useful Links"> Links to Our places </mat-tab>

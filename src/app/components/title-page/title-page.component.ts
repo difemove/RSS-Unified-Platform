@@ -7,7 +7,7 @@ import { DataChangeService } from 'src/app/Services/data-change.service';
   styleUrls: ['./title-page.component.css']
 })
 export class TitlePageComponent implements OnInit {
-  
+  titleAPP:string="";
   appIndexSelected:number;
   showTitle:boolean;
 
@@ -15,31 +15,34 @@ export class TitlePageComponent implements OnInit {
   
   ngOnInit() {
     this.showTitle=true;
-    this.getAppIndexSelected;
+    this.getAppIndexSelected();
+
   }
 
   getAppIndexSelected (){
     this.dcs.emitterTabIndex.subscribe((appIndexSelected:number)=>this.appIndexSelected=this.appIndexSelected);
   }
 
-  getTitleApp():string{
+  getTitleApp():void{
+    this.showTitle=false;
     switch (this.appIndexSelected){
       case 0 :{
-        return "Ticket Template";
+        this.titleAPP="Ticket Template";
       }
         
       case 1: {
-        return "Ticket Description";
+        this.titleAPP ="Ticket Description";
       }
         
       case 2: {
-        return "Useful Links";
+        this.titleAPP ="Useful Links";
       }
       default : {
-        return "";
+        this.titleAPP ="";
       }
+      this.titleAPP= "-"+this.titleAPP + "-";
     }
-   
+    
 
   }
 

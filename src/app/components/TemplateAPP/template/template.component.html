@@ -1,0 +1,42 @@
+<mat-grid-list cols="2">
+    <mat-grid-tile class="CardInputs">
+    <mat-card class="CardInputs">       
+        <mat-form-field class="TextInput">
+            <input matInput placeholder="Question" ngModel name="quest" (ngModelChange)="emitQuestion($event)">
+        </mat-form-field>
+      
+        <mat-form-field class="TextInput">
+            <textarea matInput placeholder="Environment" rows="3"  ngModel name="env" (ngModelChange)="emitEnvironment($event)" ></textarea>
+        </mat-form-field>
+
+        <mat-form-field class="TextInput">
+            <textarea matInput placeholder="Answer" rows="10" ngModel name="ans" (ngModelChange)="emitAnswer($event)"></textarea>
+        </mat-form-field>
+
+        <mat-form-field class="TextInput">
+            <mat-select [(ngModel)]="selectedValue" name="ns" placeholder="Next Steps" (ngModelChange)="emitNextSteps($event)">
+                        <mat-option *ngFor="let nextStep of nextSteps" [value]="nextStep">
+                            {{nextStep.nextSteps}}
+                        </mat-option>
+            </mat-select>
+        </mat-form-field> 
+
+        <mat-form-field>
+            <input matInput placeholder="Name" ngModel name="name" (ngModelChange)="emitName($event)">
+        </mat-form-field>
+  
+        <mat-form-field>
+            <input matInput placeholder="Company" ngModel name="Company" (ngModelChange)="emitCompany($event)" >
+        </mat-form-field>
+
+          
+        <mat-form-field>
+            <input matInput placeholder="BPID" ngModel name="BPID" (ngModelChange)="emitBPID($event)" >
+        </mat-form-field>
+        
+    </mat-card>
+</mat-grid-tile>
+<mat-grid-tile>
+  <app-auto-template class="CardInputs"></app-auto-template>
+</mat-grid-tile>
+</mat-grid-list>
