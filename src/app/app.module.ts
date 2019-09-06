@@ -61,6 +61,7 @@ import { ContractTypesComponent } from './components/Ticket-DescriptionAPP/contr
 import { ProductsComponent } from './components/Ticket-DescriptionAPP/products/products.component';
 import { WarrantiesComponent } from './components/Ticket-DescriptionAPP/warranties/warranties.component';
 import { ReturnTypesDialogComponent } from './components/Ticket-DescriptionAPP/return-types-dialog/return-types-dialog.component';
+import { InfoTicketComponent } from './components/TemplateAPP/info-ticket/info-ticket.component';
 
 
 
@@ -80,7 +81,8 @@ import { ReturnTypesDialogComponent } from './components/Ticket-DescriptionAPP/r
     TitlePageComponent,
     TabSelectorComponent,
     ReturnTypesComponent,
-    ReturnTypesDialogComponent
+    ReturnTypesDialogComponent,
+    InfoTicketComponent
   ],
   imports: [
     BrowserModule,

@@ -1,31 +1,42 @@
 <mat-grid-list cols="2">
-    <mat-grid-tile>
+    <mat-grid-tile class="CardInputs">
     <mat-card class="CardInputs">       
-        <form class="TemplateForm">
-        <mat-form-field class="Question">
+        <mat-form-field class="TextInput">
             <input matInput placeholder="Question" ngModel name="quest" (ngModelChange)="emitQuestion($event)">
         </mat-form-field>
       
-        <mat-form-field class="Environment">
+        <mat-form-field class="TextInput">
             <textarea matInput placeholder="Environment" rows="3"  ngModel name="env" (ngModelChange)="emitEnvironment($event)" ></textarea>
         </mat-form-field>
 
-        <mat-form-field class="Answer">
+        <mat-form-field class="TextInput">
             <textarea matInput placeholder="Answer" rows="10" ngModel name="ans" (ngModelChange)="emitAnswer($event)"></textarea>
         </mat-form-field>
-        <mat-form-field>
-            <mat-select [(ngModel)]="selectedValue" name="ns" (ngModelChange)="emitNextSteps($event)">
-                        
+
+        <mat-form-field class="TextInput">
+            <mat-select [(ngModel)]="selectedValue" name="ns" placeholder="Next Steps" (ngModelChange)="emitNextSteps($event)">
                         <mat-option *ngFor="let nextStep of nextSteps" [value]="nextStep">
                             {{nextStep.nextSteps}}
                         </mat-option>
             </mat-select>
+        </mat-form-field> 
+
+        <mat-form-field>
+            <input matInput placeholder="Name" ngModel name="name" (ngModelChange)="emitName($event)">
         </mat-form-field>
-        </form>
+  
+        <mat-form-field>
+            <input matInput placeholder="Company" ngModel name="Company" (ngModelChange)="emitCompany($event)" >
+        </mat-form-field>
+
+          
+        <mat-form-field>
+            <input matInput placeholder="BPID" ngModel name="BPID" (ngModelChange)="emitBPID($event)" >
+        </mat-form-field>
+        
     </mat-card>
 </mat-grid-tile>
-<mat-divider [vertical]="true">o</mat-divider>
 <mat-grid-tile>
-  <app-auto-template></app-auto-template>
+  <app-auto-template class="CardInputs"></app-auto-template>
 </mat-grid-tile>
 </mat-grid-list>

@@ -1,12 +1,14 @@
 .hero {
-	height: 50vh;
+	height: 10vh;
 	background: linear-gradient(45deg,#003E7E,#074255,
 	 #8C111E,#BB2332,#F68A33) 0 0 / 1000% no-repeat, url("../../../assets/RA-Logo-Web/2019_RA_Logo_Bug-LeftText_white.png") 
 	 0 0 / 
 	 cover no-repeat;
 	-webkit-animation: gradientAnimation 20s ease infinite;
 	animation: gradientAnimation 20s ease infinite;
-}
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Map-Flag_of_the_Soviet_Union.svg");
+	}
+
 @-webkit-keyframes gradientAnimation {
 	0%   { background-position: 0% 30%, 0 0;}
 	50%  { background-position: 100% 70%, 0 0;}
@@ -30,13 +32,13 @@ h1 {
 }
 h1 span {
 	display: block;
-	margin-top: 2em;
-	font-size: 3vw;
+	margin-top: 0.5em;
+	font-size: 2vw;
 	font-weight: 300;
 }
 /*ID*/
 
 #title-description{
 
-	font-size: 8vw;
+	font-size: 5vw;
 }

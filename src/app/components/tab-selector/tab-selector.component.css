@@ -1,6 +1,6 @@
 .DotsBackground {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-image: url("../../../assets/RA-Logo-Web/Dots1.jpg");
     background-size: cover;
-    opacity: 0.6;
+    opacity: 10%;
     background-repeat: no-repeat;
 }
