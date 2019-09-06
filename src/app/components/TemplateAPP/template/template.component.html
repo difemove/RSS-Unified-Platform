@@ -1,4 +1,5 @@
-    <div class="CardInputs">
+<mat-grid-list cols="2">
+    <mat-grid-tile>
     <mat-card class="CardInputs">       
         <form class="TemplateForm">
         <mat-form-field class="Question">
@@ -6,11 +7,11 @@
         </mat-form-field>
       
         <mat-form-field class="Environment">
-            <input matInput placeholder="Environment" ngModel name="env" (ngModelChange)="emitEnvironment($event)" >
+            <textarea matInput placeholder="Environment" rows="3"  ngModel name="env" (ngModelChange)="emitEnvironment($event)" ></textarea>
         </mat-form-field>
 
         <mat-form-field class="Answer">
-            <textarea matInput placeholder="Answer" rows="5" ngModel name="ans" (ngModelChange)="emitAnswer($event)"></textarea>
+            <textarea matInput placeholder="Answer" rows="10" ngModel name="ans" (ngModelChange)="emitAnswer($event)"></textarea>
         </mat-form-field>
         <mat-form-field>
             <mat-select [(ngModel)]="selectedValue" name="ns" (ngModelChange)="emitNextSteps($event)">
@@ -22,4 +23,9 @@
         </mat-form-field>
         </form>
     </mat-card>
-
+</mat-grid-tile>
+<mat-divider [vertical]="true">o</mat-divider>
+<mat-grid-tile>
+  <app-auto-template></app-auto-template>
+</mat-grid-tile>
+</mat-grid-list>

@@ -1,23 +1,5 @@
 .CardInputs{
     width: 100%;
-    height:80%;
-  }
-  .Question{
-    width: 100%;
-    height: 15%;
-  }
-  .Environment{
-    width: 100%;
-    height: 15%;
-  }
-  .Answer{
-    width: 100%;
-    height: 70%;
-  }
-  .TemplateForm{
-    width: 100%;
-    height: 100%;
-  }
-  .FullWidth{
-    width: 100%;
+    height:100%;
+    background-color: rgba(255,0,0,0.2);
   }
