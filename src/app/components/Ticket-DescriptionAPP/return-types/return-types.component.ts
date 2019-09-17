@@ -10,20 +10,24 @@ import { ReturnTypesDialogComponent } from '../return-types-dialog/return-types-
   styleUrls: ['./return-types.component.css']
 })
 export class ReturnTypesComponent implements OnInit {
-  returnTypes: ReturnType[];
+  returnType: ReturnType;
   constructor(private dcs: DataChangeService, public dialog: MatDialog) { }
 
   ngOnInit() {
   }
 
-  /*openDialog() {
-    this.dialog.open(ReturnTypesDialogComponent, {
-      data: {
-        /*returnTypes=this.returnTypes;
-      }
-    });*/
+  openDialog() {
+    const dialogRef = this.dialog.open(ReturnTypesDialogComponent, {
+      width: '250px',
+      data: { returnType: this.returnType}
+    });
 
-
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      this.returnType = result;
+    });
+    
+  }
   
   
 

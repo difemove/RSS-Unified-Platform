@@ -1,1 +1,24 @@
-<p>return-types-dialog works!</p>
+<div>
+    <mat-table #table [dataSource]="returnTypes">
+
+        <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="code">
+            <mat-header-cell *matHeaderCellDef>Check</mat-header-cell>
+            <mat-cell *matCellDef="let returnType">
+                <mat-checkbox [(ngModel)]="returnType.checked"></mat-checkbox>
+            </mat-cell>
+        </ng-container>
+
+        
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"
+            [ngClass]="{hovered: row.hovered, highlighted: row.highlighted}"
+            (click)="row.highlighted = !row.highlighted" (mouseover)="row.hovered = true"
+            (mouseout)="row.hovered = false"></mat-row>
+    </mat-table>
+</div>
+

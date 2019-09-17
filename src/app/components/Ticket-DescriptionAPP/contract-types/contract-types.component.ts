@@ -31,8 +31,7 @@ export class ContractTypesComponent implements OnInit {
 
     
     this.contractTypes = contractTypesJson;
-    /* this.selectedValue=this.contractTypes[0]; */
-   /* console.log(JSON.stringify(this));*/
+ 
   }
   
   public loadProducts(selectedValue:ContractType):void{

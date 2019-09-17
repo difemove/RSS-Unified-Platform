@@ -1,54 +1,1433 @@
 [
     {
-        "contractDescription": "test",
-        "code": "tst",
+        "contractDescription": "Automation Control",
+        "code": "AUT",
         "categories": [
             {
-          "categoryDescription": "category1",
-          "products": [
+                "categoryDescription": "Programmable Controllers",
+                "products": [
                     {
-              "productDescription": "ptest1",
-              "code": "A00"
+                        "productDescription": "Compact GuardLogix®",
+                        "code": "A01"
                     },
                     {
-              "productDescription": "ptest2",
-              "code": "A02"
+                        "productDescription": "CompactLogix™",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "ControlLogix® (1756 Family)",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "GuardLogix®",
+                        "code": "A04"
+                    },
+                    {
+                        "productDescription": "MicroLogix™",
+                        "code": "A05"
+                    },
+                    {
+                        "productDescription": "SLC™ 500",
+                        "code": "A06"
+                    },
+                    {
+                        "productDescription": "SmartGuard™ 600",
+                        "code": "A07"
+                    },
+                    {
+                        "productDescription": "SoftLogix™ 5800®",
+                        "code": "A08"
+                    },
+                    {
+                        "productDescription": "Pico™ Controller and PicoSoft  (1760 Controllers) ",
+                        "code": "A09"
+                    },
+                    {
+                        "productDescription": "PLC™ 5",
+                        "code": "A10"
                     }
                 ]
             },
             {
-            "categoryDescription": "category2",
-            "products": [
+                "categoryDescription": "Operator Interface",
+                "products": [
                     {
-                "productDescription": "ptest4",
-                "code": "B01"
+                        "productDescription": "DTAM™ 2707",
+                        "code": "B01"
                     },
                     {
-                "productDescription": "ptest5",
-                "code": "B02"
+                        "productDescription": "Industrial Computer",
+                        "code": "B02"
                     },
                     {
-                "productDescription": "ptest6",
-                "code": "B03"
+                        "productDescription": "InView™",
+                        "code": "B03"
+                    },
+                    {
+                        "productDescription": "PanelView 5500",
+                        "code": "B04"
+                    },
+                    {
+                        "productDescription": "PanelView Plus",
+                        "code": "B05"
+                    },
+                    {
+                        "productDescription": "MobileView™ (Only includes 2711T)  ",
+                        "code": "B06"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Distributed I/O",
+                "products": [
+                    {
+                        "productDescription": "Block I/O™",
+                        "code": "C01"
+                    },
+                    {
+                        "productDescription": "Expansion I/O",
+                        "code": "C02"
+                    },
+                    {
+                        "productDescription": "Flex™ I/O",
+                        "code": "C03"
+                    },
+                    {
+                        "productDescription": "POINT I/O™ and Remote I/O ",
+                        "code": "C04"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Networks",
+                "products": [
+                    {
+                        "productDescription": "ControlNet",
+                        "code": "D01"
+                    },
+                    {
+                        "productDescription": "DeviceNetr",
+                        "code": "D02"
+                    },
+                    {
+                        "productDescription": "DH+™",
+                        "code": "D03"
+                    },
+                    {
+                        "productDescription": "DH-485",
+                        "code": "D04"
+                    },
+                    {
+                        "productDescription": "EtherNet/IP",
+                        "code": "D05"
+                    },
+                    {
+                        "productDescription": "RSLinx® Lite",
+                        "code": "D06"
+                    },
+                    {
+                        "productDescription": "RSNetWorx™",
+                        "code": "D07"
+                    },
+                    {
+                        "productDescription": "9300 (Cables and 9300-ENA)",
+                        "code": "D08"
+                    },
+                    {
+                        "productDescription": " 1784 Cards (Excludes ISA or  PCMCIA cards) ",
+                        "code": "D09"
+                    },
+                    {
+                        "productDescription": "IO-Link Technology ",
+                        "code": "D10"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Networks Security and Infrastructure",
+                "products": [
+                    {
+                        "productDescription": "Stratix® switches ",
+                        "code": "E01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Sensors and Switches",
+                "products": [
+                    {
+                        "productDescription": "RFID ",
+                        "code": "F01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Related Software",
+                "products": [
+                    {
+                        "productDescription": "RSEmulate™",
+                        "code": "G01"
+                    },
+                    {
+                        "productDescription": "RSLadder™",
+                        "code": "G02"
+                    },
+                    {
+                        "productDescription": "RSLogix™",
+                        "code": "G03"
+                    },
+                    {
+                        "productDescription": "Studio 5000®",
+                        "code": "G04"
+                    },
+                    {
+                        "productDescription": "FactoryTalk® View ME",
+                        "code": "G05"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Condition Monitoring",
+                "products": [
+                    {
+                        "productDescription": "Integrated Machine Condition Monitoring  (Including 1444) ",
+                        "code": "H01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Power Monitor",
+                "products": [
+                    {
+                        "productDescription": "PowerMonitor™ 500",
+                        "code": "I01"
+                    },
+                    {
+                        "productDescription": " PowerMonitor 1000 and  PowerMonitor 5000",
+                        "code": "I02"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Power Energy",
+                "products": [
+                    {
+                        "productDescription": "RSPower™",
+                        "code": "J01"
                     }
                 ]
             }
         ]
     },
     {
-        "contractDescription": "test2",
-        "code": "tsr",
+        "contractDescription": "Drives and Starters",
+        "code": "LVD",
         "categories": [
             {
-          "categoryDescription": "category3",
-          "products": [
+                "categoryDescription": "Drives & Starters",
+                "products": [
                     {
-              "productDescription": "ptest7",
-              "code": "A01"
+                        "productDescription": "2362Q 700 Common Bus",
+                        "code": "A01"
                     },
                     {
-              "productDescription": "ptest8",
-              "code": "A02"
+                        "productDescription": "2362S 700S Common Bus",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "ArmorStart®",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "PowerFlex®  520  Series",
+                        "code": "A04"
+                    },
+                    {
+                        "productDescription": "PowerFlex®  750   Series",
+                        "code": "A05"
+                    },
+                    {
+                        "productDescription": "PowerFlex®  4   Series",
+                        "code": "A06"
+                    },
+                    {
+                        "productDescription": "PowerFlex®  7   Series",
+                        "code": "A07"
+                    },
+                    {
+                        "productDescription": "SMC Flex",
+                        "code": "A08"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Medium Voltage Drives",
+        "code": "MVD",
+        "categories": [
+            {
+                "categoryDescription": "Medium Voltage Drives",
+                "products": [
+                    {
+                        "productDescription": "857",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "865",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "1500-1599",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "1900-1999",
+                        "code": "A04"
+                    },
+                    {
+                        "productDescription": "7000A-RPDTD",
+                        "code": "A05"
+                    },
+                    {
+                        "productDescription": "7000L-RPDTD",
+                        "code": "A06"
+                    },
+                    {
+                        "productDescription": "7000L-R18TX",
+                        "code": "A07"
+                    },
+                    {
+                        "productDescription": "7000A-RPTX",
+                        "code": "A08"
+                    },
+                    {
+                        "productDescription": "7000L-RPTX",
+                        "code": "A09"
+                    },
+                    {
+                        "productDescription": "7000A-RPTXI",
+                        "code": "A10"
+                    },
+                    {
+                        "productDescription": " 7000-RPTX",
+                        "code": "A11"
+                    },
+                    {
+                        "productDescription": "7000-R18TX",
+                        "code": "A12"
+                    },
+                    {
+                        "productDescription": "7000-RPTXI",
+                        "code": "A13"
+                    },
+                    {
+                        "productDescription": "7760",
+                        "code": "A14"
+                    },
+                    {
+                        "productDescription": "7761",
+                        "code": "A15"
+                    },
+                    {
+                        "productDescription": "7762",
+                        "code": "A16"
+                    },
+                    {
+                        "productDescription": "7703",
+                        "code": "A17"
+                    },
+                    {
+                        "productDescription": "1500",
+                        "code": "B01"
+                    },
+                    {
+                        "productDescription": "1599",
+                        "code": "B02"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Industrial Motion Control",
+        "code": "MOT",
+        "categories": [
+            {
+                "categoryDescription": "Back-Based Motion Products(ControlLogix Motion) ",
+                "products": [
+                    {
+                        "productDescription": "857",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "865",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "1500-1599",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "1900-1999",
+                        "code": "A04"
+                    },
+                    {
+                        "productDescription": " 7000A-RPDTD",
+                        "code": "A05"
+                    },
+                    {
+                        "productDescription": "7000L-RPDTD",
+                        "code": "A06"
+                    },
+                    {
+                        "productDescription": " 7000L-1756-M02AE",
+                        "code": "A07"
+                    },
+                    {
+                        "productDescription": "M08SE",
+                        "code": "A08"
+                    },
+                    {
+                        "productDescription": "M16SE",
+                        "code": "A09"
+                    },
+                    {
+                        "productDescription": "M03SE",
+                        "code": "A10"
+                    },
+                    {
+                        "productDescription": "M02AE",
+                        "code": "A11"
+                    },
+                    {
+                        "productDescription": "M02AS",
+                        "code": "A12"
+                    },
+                    {
+                        "productDescription": "HYD02 ",
+                        "code": "A13"
+                    },
+                    {
+                        "productDescription": " 1758M04SE",
+                        "code": "A14"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "ServoDrives and Motors ",
+                "products": [
+                    {
+                        "productDescription": "Integrated Drive Module (IDM)",
+                        "code": "B01"
+                    },
+                    {
+                        "productDescription": "Kinetix drive 3",
+                        "code": "B02"
+                    },
+                    {
+                        "productDescription": "Kinetix drive 300",
+                        "code": "B03"
+                    },
+                    {
+                        "productDescription": "Kinetix drive 350",
+                        "code": "B04"
+                    },
+                    {
+                        "productDescription": "Kinetix Drive 2000",
+                        "code": "B05"
+                    },
+                    {
+                        "productDescription": "Kinetix Drive  5500",
+                        "code": "B06"
+                    },
+                    {
+                        "productDescription": "Kinetix Drive 5700",
+                        "code": "B07"
+                    },
+                    {
+                        "productDescription": "Kinetix Drive 6000",
+                        "code": "B08"
+                    },
+                    {
+                        "productDescription": "Kinetix Drive  6200",
+                        "code": "B09"
+                    },
+                    {
+                        "productDescription": "Kinetix Drive   6500 ",
+                        "code": "B10"
+                    },
+                    {
+                        "productDescription": "Kinetix Drive 7000",
+                        "code": "B11"
+                    },
+                    {
+                        "productDescription": "Ultra™ 3000 (2098DSD)",
+                        "code": "B12"
+                    },
+                    {
+                        "productDescription": "Kinetx VP Series ",
+                        "code": "B13"
+                    },
+                    {
+                        "productDescription": "Kinetix MP Series ",
+                        "code": "B14"
+                    },
+                    {
+                        "productDescription": "Motor(Rotary and linear motor families)  ",
+                        "code": "B15"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Programming Software ",
+                "products": [
+                    {
+                        "productDescription": "Motion View",
+                        "code": "C01"
+                    },
+                    {
+                        "productDescription": "RS Logix Motion Commands ",
+                        "code": "C02"
+                    },
+                    {
+                        "productDescription": "UltraWare ",
+                        "code": "C03"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Component Class",
+        "code": "CCS",
+        "categories": [
+            {
+                "categoryDescription": "Computer and Operator interfaces ",
+                "products": [
+                    {
+                        "productDescription": "Panel View Component ",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "Panel  view 800 ",
+                        "code": "A02"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Indutrial Control products ",
+                "products": [
+                    {
+                        "productDescription": "Industrial Control Products",
+                        "code": "B01"
+                    },
+                    {
+                        "productDescription": "Circuit Load Protections ",
+                        "code": "B02"
+                    },
+                    {
+                        "productDescription": "Connection Devices",
+                        "code": "B03"
+                    },
+                    {
+                        "productDescription": "Lighting Control",
+                        "code": "B04"
+                    },
+                    {
+                        "productDescription": "Push Buttons & Signaling Devices ",
+                        "code": "B05"
+                    },
+                    {
+                        "productDescription": "Relays & Timers",
+                        "code": "B06"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Motor Control Products ",
+                "products": [
+                    {
+                        "productDescription": "IntelliCENTER (Low Voltage MCC) ",
+                        "code": "C01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Programmable Controllers ",
+                "products": [
+                    {
+                        "productDescription": "Micro800 Control Systems ",
+                        "code": "D01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "System Business Products ",
+                "products": [
+                    {
+                        "productDescription": "Safety,Sensors Connection System Business Products ",
+                        "code": "E01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Software ",
+                "products": [
+                    {
+                        "productDescription": "Connected Component Workbench Software  ",
+                        "code": "F01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Safety Products  ",
+                "products": [
+                    {
+                        "productDescription": "Safety Machine Products",
+                        "code": "G01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Power Supplies ",
+                "products": [
+                    {
+                        "productDescription": "On-Machine Power Supplies",
+                        "code": "H01"
+                    },
+                    {
+                        "productDescription": "Voltaje Sag Protectors",
+                        "code": "H02"
+                    },
+                    {
+                        "productDescription": "Control Cirtcuit Transformers ",
+                        "code": "H03"
+                    },
+                    {
+                        "productDescription": "Switched Mode Power Supplies ",
+                        "code": "H04"
+                    },
+                    {
+                        "productDescription": "Uninterruptible Power Supplies",
+                        "code": "H05"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Motor Control",
+                "products": [
+                    {
+                        "productDescription": "Contactors",
+                        "code": "I01"
+                    },
+                    {
+                        "productDescription": "Control & Load Switches ",
+                        "code": "I02"
+                    },
+                    {
+                        "productDescription": "Enclosures ",
+                        "code": "I03"
+                    },
+                    {
+                        "productDescription": "Motor Control Centers Low Voltage ",
+                        "code": "I04"
+                    },
+                    {
+                        "productDescription": "Motor Control Centers Medium  Voltage ",
+                        "code": "I05"
+                    },
+                    {
+                        "productDescription": "Soft Starters Low Voltage ",
+                        "code": "I06"
+                    },
+                    {
+                        "productDescription": "Soft Starters Medium Voltage ",
+                        "code": "I07"
+                    },
+                    {
+                        "productDescription": "Starters Low Voltage ",
+                        "code": "I08"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Process Safety",
+        "code": "ICS",
+        "categories": [
+            {
+                "categoryDescription": "Process Safety",
+                "products": [
+                    {
+                        "productDescription": "AADvance",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "OptiSIS",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "Standard  9000",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "Trusted",
+                        "code": "A04"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "HMI/Communications",
+        "code": "HMI",
+        "categories": [
+            {
+                "categoryDescription": "HMI Communications",
+                "products": [
+                    {
+                        "productDescription": "FactoryTalk Gateway",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "FactoryTalk View SE",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "FactoryTalk ViewPoint",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "RSLinx Classic Single Node",
+                        "code": "A04"
+                    },
+                    {
+                        "productDescription": "RSLinx Classic OEM",
+                        "code": "A05"
+                    },
+                    {
+                        "productDescription": "RSLinx Classic Gateway",
+                        "code": "A06"
+                    },
+                    {
+                        "productDescription": "RSView32 Works and Runtimes",
+                        "code": "A07"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Information Software",
+        "code": "INF",
+        "categories": [
+            {
+                "categoryDescription": "Information Software",
+                "products": [
+                    {
+                        "productDescription": "FactoryTalk AssetCentre",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "FactoryTalk Historian",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "FactoryTalk PlantMetrics (formerly RSBizWare PlantMetrics)",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "FactoryTalk Transaction Manager (formerly RSSql)",
+                        "code": "A04"
+                    },
+                    {
+                        "productDescription": "FactoryTalk VantagePoint",
+                        "code": "A05"
+                    },
+                    {
+                        "productDescription": "FactoryTalk ViewPoint",
+                        "code": "A06"
+                    },
+                    {
+                        "productDescription": "RSMACC Server",
+                        "code": "A07"
+                    },
+                    {
+                        "productDescription": "FactoryTalk Analytics2",
+                        "code": "A08"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Application",
+        "code": "APP",
+        "categories": [
+            {
+                "categoryDescription": "Application",
+                "products": [
+                    {
+                        "productDescription": "RSJunctionBox",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "RSLogix Frameworks and RSTrainer",
+                        "code": "A02"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Process",
+        "code": "PRO",
+        "categories": [
+            {
+                "categoryDescription": "Process",
+                "products": [
+                    {
+                        "productDescription": "FactoryTalk Batch (formerly RSBizWare Batch)",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "FOUNDATION Fieldbus4",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "MaterialTrack",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "PlantPAx and Profibus PA Fieldbus (1788 Line)",
+                        "code": "A04"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Power Energy",
+        "code": "POW",
+        "categories": [
+            {
+                "categoryDescription": "Power Energy",
+                "products": [
+                    {
+                        "productDescription": "FactoryTalk EnergyMetrix",
+                        "code": "A01"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Mobility",
+        "code": "MOB",
+        "categories": [
+            {
+                "categoryDescription": "Mobility",
+                "products": [
+                    {
+                        "productDescription": "FactoryTalk TeamONE (Email support only)",
+                        "code": "A01"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Legacy Hardware",
+        "code": "LHW",
+        "categories": [
+            {
+                "categoryDescription": "Programmable Controllers",
+                "products": [
+                    {
+                        "productDescription": "FlexLogix",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "GuardPLC",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "PLC-5",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "1755",
+                        "code": "A04"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Operator interface ",
+                "products": [
+                    {
+                        "productDescription": "PanelBuilder 32",
+                        "code": "B01"
+                    },
+                    {
+                        "productDescription": "2711 PanelView 1400",
+                        "code": "B02"
+                    },
+                    {
+                        "productDescription": "PanelView 1400E",
+                        "code": "B03"
+                    },
+                    {
+                        "productDescription": "PanelView Standard",
+                        "code": "B04"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Power Monitor ",
+                "products": [
+                    {
+                        "productDescription": "PowerMonitor 1400 Series",
+                        "code": "C01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Motion Products ",
+                "products": [
+                    {
+                        "productDescription": "Ultra 5000 (2098IPD), Allen-Bradley",
+                        "code": "D01"
+                    },
+                    {
+                        "productDescription": "Servo Drives and Motors",
+                        "code": "D02"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Allen Bradley Drives and Starters",
+                "products": [
+                    {
+                        "productDescription": "160",
+                        "code": "E01"
+                    },
+                    {
+                        "productDescription": "1305 Configured Drive",
+                        "code": "E02"
+                    },
+                    {
+                        "productDescription": "1305 Standard Drive",
+                        "code": "E03"
+                    },
+                    {
+                        "productDescription": "1336 Classic AC Drive and Accessories",
+                        "code": "E04"
+                    },
+                    {
+                        "productDescription": "1336 Dynamic Braking Units and Chopper Modules",
+                        "code": "E05"
+                    },
+                    {
+                        "productDescription": "1336 FORCE (1336T)",
+                        "code": "E06"
+                    },
+                    {
+                        "productDescription": "1336 FORCE Series A",
+                        "code": "E07"
+                    },
+                    {
+                        "productDescription": "1336 VT",
+                        "code": "E08"
+                    },
+                    {
+                        "productDescription": "1336E",
+                        "code": "E09"
+                    },
+                    {
+                        "productDescription": "1336F PLUS (A-C Frames)",
+                        "code": "E10"
+                    },
+                    {
+                        "productDescription": "1336F PLUS II Standard Drive",
+                        "code": "E11"
+                    },
+                    {
+                        "productDescription": "1336 PLUS (D-G Frames)",
+                        "code": "E12"
+                    },
+                    {
+                        "productDescription": "1336R Regen",
+                        "code": "E13"
+                    },
+                    {
+                        "productDescription": "1336S",
+                        "code": "E14"
+                    },
+                    {
+                        "productDescription": "1336T",
+                        "code": "E15"
+                    },
+                    {
+                        "productDescription": "1336Z Spider Drive",
+                        "code": "E16"
+                    },
+                    {
+                        "productDescription": "1395 Digital DC and 1397 Digital DC",
+                        "code": "E17"
+                    },
+                    {
+                        "productDescription": "PowerFlex 700H",
+                        "code": "E18"
+                    },
+                    {
+                        "productDescription": "2362F",
+                        "code": "E19"
+                    },
+                    {
+                        "productDescription": "2362H",
+                        "code": "E20"
+                    },
+                    {
+                        "productDescription": "2362L",
+                        "code": "E21"
+                    },
+                    {
+                        "productDescription": "2362M",
+                        "code": "E22"
+                    },
+                    {
+                        "productDescription": "2362N and FlexPak 3000",
+                        "code": "E23"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Reliance Electric Standard",
+                "products": [
+                    {
+                        "productDescription": "DC(old line)",
+                        "code": "F01"
+                    },
+                    {
+                        "productDescription": "FlexPak AC",
+                        "code": "F02"
+                    },
+                    {
+                        "productDescription": "GV3000/SE",
+                        "code": "F03"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Reliance Electric Standard Drives ",
+                "products": [
+                    {
+                        "productDescription": "SP600",
+                        "code": "G01"
+                    },
+                    {
+                        "productDescription": "DC1",
+                        "code": "G02"
+                    },
+                    {
+                        "productDescription": "DC2",
+                        "code": "G03"
+                    },
+                    {
+                        "productDescription": "DC3",
+                        "code": "G04"
+                    },
+                    {
+                        "productDescription": "FlexPak Plus  Single Phase",
+                        "code": "G05"
+                    },
+                    {
+                        "productDescription": "GV3000",
+                        "code": "G06"
+                    },
+                    {
+                        "productDescription": "GV6000",
+                        "code": "G07"
+                    },
+                    {
+                        "productDescription": "LiquiFlo 1.0",
+                        "code": "G08"
+                    },
+                    {
+                        "productDescription": "LiquiFlo 1.5",
+                        "code": "G09"
+                    },
+                    {
+                        "productDescription": "LiquiFlo 2.0",
+                        "code": "G10"
+                    },
+                    {
+                        "productDescription": "MD 60",
+                        "code": "G11"
+                    },
+                    {
+                        "productDescription": "MD 65",
+                        "code": "G12"
+                    },
+                    {
+                        "productDescription": "MiniPak Plus  Single Phase",
+                        "code": "G13"
+                    },
+                    {
+                        "productDescription": "SP500 and VTAC 7 & 9",
+                        "code": "G14"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Application ",
+                "products": [
+                    {
+                        "productDescription": "Automation Desktop",
+                        "code": "H01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Networks",
+                "products": [
+                    {
+                        "productDescription": "1785-KE",
+                        "code": "J01"
+                    },
+                    {
+                        "productDescription": "1761-NET-DNI",
+                        "code": "J02"
+                    },
+                    {
+                        "productDescription": "ISA Cards (1784 KT/KTX/KTC/KTS/KTCS/ KTCX15/KT2/KTXD) and PCMCIA Cards (1784 PCC",
+                        "code": "J03"
+                    },
+                    {
+                        "productDescription": "PCD",
+                        "code": "J04"
+                    },
+                    {
+                        "productDescription": "PCID",
+                        "code": "J05"
+                    },
+                    {
+                        "productDescription": "PCIDS",
+                        "code": "J06"
+                    },
+                    {
+                        "productDescription": "PCM4",
+                        "code": "J07"
+                    },
+                    {
+                        "productDescription": "PCMC",
+                        "code": "J08"
+                    },
+                    {
+                        "productDescription": "PCMC1",
+                        "code": "J09"
+                    },
+                    {
+                        "productDescription": "PCMK",
+                        "code": "J10"
+                    },
+                    {
+                        "productDescription": "PCMKS)",
+                        "code": "J11"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Process",
+                "products": [
+                    {
+                        "productDescription": "FOUNDATION Fieldbus(1757 FFLD9",
+                        "code": "K01"
+                    },
+                    {
+                        "productDescription": "FOUNDATION Fieldbus (1757 FFLD)",
+                        "code": "K02"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Rack Based Motion Products ",
+                "products": [
+                    {
+                        "productDescription": "SLC Motion (1746-HSRV, 1746-HSTP)",
+                        "code": "L01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Servo Drives and Motors ",
+                "products": [
+                    {
+                        "productDescription": " 1394",
+                        "code": "M01"
+                    },
+                    {
+                        "productDescription": "Ultra 100",
+                        "code": "M02"
+                    },
+                    {
+                        "productDescription": "Ultra 200(1398DDM)",
+                        "code": "M03"
+                    },
+                    {
+                        "productDescription": "Ultra 1500",
+                        "code": "M04"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Legacy Software",
+        "code": "LSW",
+        "categories": [
+            {
+                "categoryDescription": "Progamming Software ",
+                "products": [
+                    {
+                        "productDescription": "GML� Commander and Ultra Master",
+                        "code": "A01"
+                    }
+                ]
+            },
+            {
+                "categoryDescription": "Related Software",
+                "products": [
+                    {
+                        "productDescription": "Change Management & Network Health",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "RSGuardian",
+                        "code": "A02"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Application Support",
+        "code": "APS",
+        "categories": [
+            {
+                "categoryDescription": "Application Support",
+                "products": [
+                    {
+                        "productDescription": "9300-APPSUPDIAG - Application Support Base Level",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "9300-APPSUPOPTA - Application Support Optimization One-Time Project",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "9300-APPSUPOPTB - Application Support Optimization Long-Term Project",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "9300-APPSUPSUR - Application Support Surveillance",
+                        "code": "A04"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Legacy Software",
+        "code": "LSW",
+        "categories": [
+            {
+                "categoryDescription": "Programmable Controllers",
+                "products": []
+            }
+        ]
+    },
+    {
+        "contractDescription": "Remote Monitoring",
+        "code": "REM",
+        "categories": [
+            {
+                "categoryDescription": "Drives ",
+                "products": [
+                    {
+                        "productDescription": "9300-DVC-PF7K",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "9300-DVC-755",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "9300-DVC-755T",
+                        "code": "A03"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "IDC",
+        "code": "IDC",
+        "categories": [
+            {
+                "categoryDescription": "Industrial Data Center",
+                "products": [
+                    {
+                        "productDescription": "9300-IDCE18SUP - Ind Data Ctr E1000 8to5 Sys Spt",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "9300-IDCE124SUP - Ind Data Ctr E1000 24x7 Sys Spt",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "9300-IDCE28SUP - Ind Data Ctr E2000 8to5 Sys Spt",
+                        "code": "A03"
+                    },
+                    {
+                        "productDescription": "9300-IDCE224SUP - Ind Data Ctr E2000 24x7 Sys Spt",
+                        "code": "A04"
+                    },
+                    {
+                        "productDescription": "9300-IDCE38SUP - Ind Data Ctr E3000 8to5 Sys Spt",
+                        "code": "A05"
+                    },
+                    {
+                        "productDescription": "9300-IDCE324SUP - Ind Data Ctr E3000 24x7 Sys Spt",
+                        "code": "A06"
+                    },
+                    {
+                        "productDescription": "9300-IDCE124MSUP - Ind Data Ctr E1000 24x7 Sys Mtr Spt",
+                        "code": "A07"
+                    },
+                    {
+                        "productDescription": "9300-IDCE224MSUP - Ind Data Ctr E2000 24x7 Sys Mtr Spt",
+                        "code": "A08"
+                    },
+                    {
+                        "productDescription": "9300-IDCE324MSUP - Ind Data Ctr E3000 24x7 Sys Mtr Spt",
+                        "code": "A09"
+                    },
+                    {
+                        "productDescription": "9300-IDCE124MASUP - Ind Data Ctr E1000 24x7 Sys Mtr Adm Spt",
+                        "code": "A10"
+                    },
+                    {
+                        "productDescription": "9300-IDCE224MASUP - Ind Data Ctr E2000 24x7 Sys Mtr Adm Spt",
+                        "code": "A11"
+                    },
+                    {
+                        "productDescription": "9300-IDCE324MASUP - Ind Data Ctr E3000 24x7 Sys Mtr Adm Spt",
+                        "code": "A12"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "ESAFE Software",
+        "code": "ESS",
+        "categories": [
+            {
+                "categoryDescription": "Condition Monitoring Software",
+                "products": [
+                    {
+                        "productDescription": "Emonitor",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "Odyssey",
+                        "code": "A02"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "ESAFE Hardware",
+        "code": "ESH",
+        "categories": [
+            {
+                "categoryDescription": "ESAFE Hardware",
+                "products": [
+                    {
+                        "productDescription": "Protection Modules (XM modules included)",
+                        "code": "A01"
+                    },
+                    {
+                        "productDescription": "Portable Data Collectors",
+                        "code": "A02"
+                    },
+                    {
+                        "productDescription": "Condition Monitoring Sensors",
+                        "code": "A03"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Activations - No Contract",
+        "code": "ACT",
+        "categories": [
+            {
+                "categoryDescription": "Activations - No Contract",
+                "products": [
+                    {
+                        "productDescription": "No Product",
+                        "code": "A00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Field Service Engineer",
+        "code": "FSE",
+        "categories": [
+            {
+                "categoryDescription": "Field Service Engineer",
+                "products": [
+                    {
+                        "productDescription": "No Product",
+                        "code": "A00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "RAPID",
+        "code": "RAP",
+        "categories": [
+            {
+                "categoryDescription": "RAPID",
+                "products": [
+                    {
+                        "productDescription": "No Product",
+                        "code": "A00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contractDescription": "Assurance",
+        "code": "SUR",
+        "categories": [
+            {
+                "categoryDescription": "Assurance",
+                "products": [
+                    {
+                        "productDescription": "No Product",
+                        "code": "A00"
                     }
                 ]
             }

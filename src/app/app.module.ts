@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {EventEmitter } from '@angular/core';
 import 'hammerjs';
 
-
 //Services
 import { CopyService } from './services/copyService';
 import { DataChangeService } from './Services/data-change.service';
@@ -42,7 +41,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatTableModule} from '@angular/material/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
-import { MatDialog } from '@angular/material';
+
+
 
 
 //Components
@@ -130,10 +130,12 @@ import { InfoTicketComponent } from './components/TemplateAPP/info-ticket/info-t
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
+   
     
     
   ],
   providers: [CopyService,DataChangeService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ReturnTypesDialogComponent]
 })
 export class AppModule { }

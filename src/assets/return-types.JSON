@@ -1,0 +1,77 @@
+[
+    {
+        "code": 1,
+        "type": "Quality Issues",
+        "returnReasons": [
+            {
+                "code": 1,
+                "scenario": "Device fails after 24 hours of being installed.",
+                "reason": "Consumable Warranty",
+                "required": "Fault report  \nCatalog Number  \nSerial Number  \nManufacturing Date",
+                "comments": "Replace by warranty transaction if it applies."
+            },
+            {
+                "code": 2,
+                "scenario": "Device fails during the first 24 hours of being energized.",
+                "reason": "NPSR (New Product Satisfaction Request)",
+                "required": "Fault report  \nCatalog Number  \nSerial Number  \nManufacturing Date",
+                "comments": "Replace by NPSR."
+            },
+            {
+                "code": 3,
+                "scenario": "Device with notification PSA or Product Notice - Only if the PSA or PN indicates to return the device by Warranty.",
+                "reason": "PSA (Product Service Advisory)/PN (Product Notice)",
+                "required": "Fault report  \nCatalog Number  \nSerial Number  \nManufacturing Date \nPSA or PN",
+                "comments": "Replace by warranty transaction if it applies."
+            },
+            {
+                "code": 4,
+                "scenario": "Device with missing parts",
+                "reason": "Manufacturing Error",
+                "required": "Fault report  \nCatalog Number  \nSerial Number  \nManufacturing \nDate Picture indicating the missing part.",
+                "comments": "Replace by warranty transaction if it applies."
+            },
+            {
+                "code": 5,
+                "scenario": "Material incorrectly assembled",
+                "reason": "Manufacturing Error",
+                "required": "Fault report  \nCatalog Number  \nSerial Number  \nManufacturing \nDate Picture indicating the assmbly error.",
+                "comments": "Replace by warranty transaction if it applies."
+            }
+        ]
+    },
+    {
+        "code": 2,
+        "type": "Other Returns",
+        "returnReasons": [
+            {
+                "code": 6,
+                "scenario": "Material damaged with box damaged",
+                "reason": "Other",
+                "required": "Catalog Number \nPicture of the box \nPicture of the material",
+                "comments": "Replace by warranty transaction if it applies."
+            },
+            {
+                "code": 7,
+                "scenario": "Material damaged without box damaged",
+                "reason": "Other",
+                "required": "Catalog Number \nPicture of the box \nPicture of the material",
+                "comments": "Replace by warranty transaction if it applies."
+            },
+            {
+                "code": 8,
+                "scenario": "Correct label but the device does not match with the label",
+                "reason": "Packaging Error",
+                "required": "Picture of the device received. \nPicture of the label in the box and in the device.",
+                "comments": "Replace by warranty transaction if it applies."
+            },
+            {
+                "code": 9,
+                "scenario": "Others",
+                "reason": "Others",
+                "required": "Others",
+                "comments": "Exchange to be evaluated by Customer Care"
+            }
+        ]
+    }
+]
